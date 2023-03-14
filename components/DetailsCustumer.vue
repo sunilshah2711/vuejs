@@ -26,7 +26,7 @@ import "vue3-easy-data-table/dist/style.css";
 const searchValue = ref("");
 
 const headers: Header[] = [
-  { text: "Name", value: "name", sortable: true },
+  { text: "FirstName", value: "name", sortable: true },
   { text: "Email", value: "email", sortable: true },
   { text: "Phone", value: "phone", sortable: true },
   { text: "Status", value: "status", sortable: true },
